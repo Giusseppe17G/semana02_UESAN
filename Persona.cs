@@ -9,19 +9,19 @@ namespace semana02_UESAN
     public class Persona
     {
         public string dni { get; set; }
-   public string nombreCompleto { get; set; }
+        public string nombreCompleto { get; set; }
         public int telefono { get; set; }
-    }
-    public Persona()
-    { 
-    }
-    
-    public Persona(string dni, string nombreCompleto, int telefono)
-    {
-        this.dni = dni;
-        this.nombreCompleto = nombreCompleto;
-        this.telefono = telefono;
+
+        public Persona()
+        {
+        }
+
+        public Persona(string dni, string nombreCompleto, int telefono)
+        {
+            this.dni = dni;
+            this.nombreCompleto = nombreCompleto;
+            this.telefono = telefono;
+        }
     }
 }
-
 
